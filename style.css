@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #22c1c3;
+  background: -webkit-linear-gradient(to right, #22c1c3, #fdbb2d);
+  background: linear-gradient(to right, #22c1c3, #fdbb2d);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  padding: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+#inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 6rem 0;
+}
+
+form input {
+  width: 8rem;
+  height: 3rem;
+  background-color: aqua;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 1rem;
+}
+
+#clima {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 300px;
+  height: 523px;
+  font-size: 1.3rem;
+}
+
+#icono {
+  width: 180px;
+  height: 180px;
+}
